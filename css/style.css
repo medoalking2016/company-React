@@ -1,0 +1,369 @@
+.about .page-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:320px;
+}
+.about .page-name h1{
+    font-size: 64px;
+    font-weight: 800;
+      animation: bounce;
+      animation-duration: 2s;
+} 
+.about .page-name p{
+    font-weight:400;
+    font-family: inter;
+    font-size:18px;
+      animation: bounce;
+      animation-duration: 2s;
+    
+}
+.about .stories-customers{
+    height:896px;
+    background-color: #D5FAFC;
+    width:100%;
+}
+.about .customers-story{
+    height:896px;
+    background-color: #D5FAFC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.about .carry-image-paragraph{
+    position: relative;
+}
+.about .img-fasla{
+    position: absolute;
+}
+.about .real-stories{
+    position: absolute;
+    z-index: 1;
+    margin-top:80px;
+    margin-left:90px;
+}
+.about .real-stories .header-stories{
+   font-weight: 48px;
+   font-weight: 800;
+   width:200%;
+}
+.about .real-stories .paragraph-stories{
+
+   width:200%;
+}
+@media screen and (max-width:520px){
+   .about  .real-stories .header-stories{
+        font-weight: 48px;
+        font-weight: 800;
+        width:125%;
+     }
+    .about  .real-stories .paragraph-stories{
+     
+        width:125%;
+     }
+}
+@media screen and(max-width:388px){
+    .about .real-stories .header-stories{
+        font-size: 20px;
+        font-weight: 800;
+        width:25%;
+     }
+    .about  .real-stories .paragraph-stories{
+     
+        width:100%;
+     }
+}
+.about .airbnb{
+    background-color: #fff;
+    padding:50px;
+    margin-top:150px;
+    font-weight:400;
+    font-family: Inter;
+    margin-right: 250px !important;
+    
+}
+.about .airbnb p{
+    width:280px;
+    line-height: 32px;
+}
+.about .airbnb h5{
+    font-size:18px;
+    font-weight: 700;
+    
+}
+@media screen and (max-width:1200px){
+   .about .airbnb{
+        background-color: #fff;
+        padding:50px;
+        margin-top:120px;
+        font-weight:400;
+        font-family: Inter;
+        margin-right: 65px !important;
+        
+    }
+}
+@media screen and (min-width:1200px){
+   .about .airbnb{
+        background-color: #fff;
+        padding:50px;
+        margin-top:120px;
+        font-weight:400;
+        font-family: Inter;
+        margin-right: 250px !important;
+        
+    }
+}
+
+@media screen and (max-width:1024px){
+  .about   .airbnb{
+       background-color: #fff;
+        padding:32px;
+        margin-top:120px;
+        font-weight:400;
+        font-family: Inter;
+        margin-left:0px;
+        margin-right: 100px;
+
+        
+    }
+   
+ 
+    
+}
+@media screen and (max-width:992px){
+    .about .airbnb{
+        background-color: #fff;
+        padding:32px;
+        margin-top:120px;
+        font-weight:400;
+        font-family: Inter;
+        margin-left: 380px;
+
+        
+    }
+ 
+    
+}
+@media screen and (max-width:823px){
+    .about .airbnb{
+        background-color: #fff;
+        padding:42px;
+        margin-top:5px;
+        font-weight:400;
+        font-family: Inter;
+        margin-left:0;
+
+        
+    }
+    .about .customers-story{
+        height:896px;
+        background-color: #D5FAFC;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+   .about  .carry-image-paragraph{
+        position: relative;
+        top:-54px;
+    }
+   .about  .img-fasla{
+        position: absolute;
+    }
+   .about  .real-stories{
+        position: absolute;
+        z-index: 1;
+        margin-top:80px;
+        margin-left:90px;
+    }
+}
+@media screen and (max-width:575px){
+   .about  .hubspot{
+        
+    margin-right: 0px;
+    margin-left: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    right: 0px;
+    margin-right: 0px;
+    
+    margin-right: 0px;
+    width: 459px;
+    left: 0px;
+
+
+
+    }
+   .about  .hubspot img{
+        
+ 
+    margin-left: 15px;
+  
+
+    }
+
+}
+@media screen and (max-width:400px){
+    .about .airbnb{
+        background-color: #fff;
+        padding:10px;
+        margin-top:5px;
+        font-weight:400;
+        font-family: Inter;
+        margin-left:30px;
+        margin-right: 300px;
+
+        
+    }
+   .about  .airbnb p{
+        width:220px;
+        line-height: 32px;
+    }
+  .about   .airbnb h5{
+        font-size:18px;
+        font-weight: 700;
+        
+    }
+    
+}
+.about .hubspot{
+    position: absolute;
+    top:780px;
+    margin-left:30px;
+}
+
+.about .bookmyshow{
+    position: absolute;
+    top:920px;
+    margin-left: 45%!important;
+}
+@media screen and(max-width:850){
+    .about .stories-customers,.blue-wallpaper .number-counter, .craft-new{
+        height: 100%;
+    }
+}
+@media screen and(max-width:1199px){
+   .about  .airbnb{
+        margin-left:500px;
+    }
+}
+@media screen and (max-width:992px){
+   .about  .hubspot{
+        position: absolute;
+        top:650px;
+        margin-left:0px;
+        margin-right: 50px;
+    } 
+    
+}
+@media screen and (max-width:823px){
+    .about .hubspot{
+        position: absolute;
+        top:1210px;
+
+    } 
+   
+   .about  .stories-customers{
+        height:1600px;
+        background-color: #D5FAFC;
+        width:100%;
+    }
+}
+@media screen and (max-width:400px){
+   .about  .hubspot{
+        position: absolute;
+        top:1210px;
+        margin-left:15px;
+
+    } 
+
+  
+   .about  .hubspot img{
+        width:250px;
+
+    } 
+   .about  .stories-customers{
+        height:1400px;
+        background-color: #D5FAFC;
+        width:100%;
+    }
+}
+.about .blue-wallpaper{
+    background:#288BFF; 
+    height:200px;
+    position: relative;
+    width:100%;
+}
+.about .number-counter{
+    background:#fff;
+    height:240px;
+    width:80%;
+    position: absolute;
+    top:90px;
+    left:10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: inter;
+    box-shadow: 0px 10px 20px rgb(41 41 42 / 7%);
+}
+.about .number-counter img{
+    margin-bottom:30px;
+}
+.about .number-counter h1{
+    font-size: 48px;
+    color:#288BFF;
+    font-weight:800
+}
+.about .number-counter p{
+    font-size:18px;
+    font-weight: 400;
+}
+@media screen and (max-width:600px){
+    .about .number-counter{
+        background:#fff;
+        height:240px;
+        width:80%;
+        position: absolute;
+        top:90px;
+        left:10%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        text-transform: capitalize;
+        font-family: inter;
+    }
+}
+.about  .craft-new{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:200px;
+    text-align: center;
+    
+}
+.about .craft-new h1{
+    font-family: inter;
+    font-size: 48px;
+    font-weight: 800;
+    width:70%;
+}
+.about .craft-new button{
+    margin-top:20px;
+    box-shadow: none;
+    border: none;
+    padding:12px 32px 12px 32px
+
+}
+.about .craft-new a{
+    color:#fff;
+}
